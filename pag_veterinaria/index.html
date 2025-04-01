@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Veterinaria | Happy Pets </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Veterinaria Happy Pets">
+                <h1>Veterinaria <span>Happy Pets</span></h1><br>
+                <a class="mini-menu" onclick="toggleMenu()">☰</a>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a class="color" href="#inicio">Inicio</a></li>
+            <li><a class="color" href="html/nosotros.html">Nosotros</a></li>
+        <li><a class="color" href="html/servicios.html">Servicios ▼</a>
+            <ul class="submenu">
+                <li><a class="opc" href="servicios/vacunacion.html">Vacunación</a></li>
+                <li><a class="opc" href="servicios/cirugias.html">Cirugías</a></li>
+            </ul>
+            <li><a class="color" href="html/contacto.html">Contacto</a></li>
+            <li><a class="color" href="tel:+524811148665" class="emergency">Emergencias</a></li>
+        </li>
+    </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        }
+    </script>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="html/nosotros.html">Nosotros</a></li>
+                    <li><a href="html/servicios.html">Servicios ▼</a>
+                        <ul class="submenu">
+                            <li><a href="servicios/vacunacion.html">Vacunación</a></li>
+                            <li><a href="servicios/cirugias.html">Cirugías</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="html/contacto.html">Contacto</a></li>
+                    <li><a href="tel:+524811148665" class="emergency">Emergencias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+
+    <section id="hero">
+        <div class="pantalla">
+            <br><br><br><br><br><br><br>
+            <h2>Cuidamos a tus mascotas con amor</h2>
+            <p class="cero">Servicios veterinarios de calidad para garantizar la salud y bienestar de tu mejor amigo</p>
+            <a href="html/contacto.html" class="btn">Agenda una cita</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Happy Pets</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i><a href="#ubicacion"> Av. Sec, Ciudad Valles, S.L.P.</a> </p>
+                    <p><i class="fas fa-phone"></i><a href="tel:+524811148665"> (+52) 481-114-86-65</a></p>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:info@happypets.com"> info@happypets.com</a></p>
+                    <p><i class="fa-solid fa-ambulance"></i> Emergencias 24/7</p>
+                    <p><i class="fas fa-clock"></i> Lunes a Viernes: 9am - 7pm <br> Sábados: 9am - 2pm</p>
+                    <p><i class="fa-solid fa-door-closed"></i> Domingos: Cerrado // Solo Emergencias</p>
+                    
+                </div>
+                <div class="about-image">
+                    <img src="img/equipo3.jpg" alt="Equipo veterinario">
+                </div>
+                </div>
+                </div>
+                <section id="ubicacion">
+                <br><br>
+                <h2>Ubicacion</h2>
+                <div class="map-container">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.96026368294!2d-99.02709593783534!3d22.01283347473834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d60d42794ddfa1%3A0xe4f142004c0549b2!2sChilapa%20211%2C%20Marquez%2C%2079010%20Cdad.%20Valles%2C%20S.L.P.!5e0!3m2!1ses!2smx!4v1743225930862!5m2!1ses!2smx"
+                    width="100%" 
+                    height="360" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"></iframe>
+                </div>
+            </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Veterinaria Happy Pets</h3>
+                    <p>Cuidando a tus mascotas con amor y profesionalismo desde 2008.</p>
+                    <div class="social-media">
+                        <a href="https://es-la.facebook.com/hector.gasparbenitez"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hb_drx"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/524811148665?text=Hola, quiero una Cita en su Veterinaria Happy Pets!"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@awf.9800" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="html/servicios.html">Servicios</a></li>
+                        <li><a href="html/nosotros.html">Nosotros</a></li>
+                        <li><a href="html/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 9am - 7pm</p>
+                    <p>Sábados: 9am - 2pm</p>
+                    <p>Emergencias: 24/7</p>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Veterinaria Happy Pets. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <br>
+    <div class="line"></div>
+    <div class="line"></div>
+
+</body>
+</html>
